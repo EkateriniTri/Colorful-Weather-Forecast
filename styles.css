@@ -7,13 +7,17 @@ body {
   background-color: var(--secondary-color);
   margin: 50px auto;
 }
-
-.title-container {
+.weather-app {
   background-color: var(--primary-color);
+  border-radius: 16px;
   max-width: 960px;
   margin: 50px auto;
-  padding :60px
-  border-radius: 16px;
+  padding: 60px;
+}
+.app-overview {
+  background-color: var(--primary-color);
+  margin: 50px auto;
+  border-radius: 10px;
 }
 
 h2 {
@@ -30,11 +34,15 @@ li {
   list-style: none;
 }
 
-h2 .current-weather-and-time {
+h2 {
   vertical-align: inherit;
-  
+  margin: 10px;
 }
 
-.title-container {
-    margin:10px;
+.five-day-forecast {
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  max-width: 960px;
+  margin: 70px auto;
+  padding: 70px;
 }

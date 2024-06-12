@@ -17,7 +17,7 @@
     <div class="container">
       <div class="wrapper-app">
         <div id="box-color"></div>
-        <div class="weather-app">
+        
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
@@ -47,18 +47,77 @@
             </div>
               </h2>
             <hr />
-                <div class="row">
-                    <div class="col-6">
-            <h1 id="city">Vienna</h1>
+            <div class="weather-app">
+            <h1 id="city">Vienna
+            </h1>
             <div class="row">
-              <br />
               <div class="col-sm-6">
                 <ul>
                   <li id="description-temperature">cloudy 16°/12°</li>
-                  <li id="air-quality">34</li>
+                    <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="03d" id="icon" class="float-left">
+                  <li id="air-quality">Air quality : <span class="air">34</span></li> 
                 </ul>
             </div>
+                   <div class="col-sm-6">
+            <ul>
+                <li>Real feel:
+                    <span id="feel">11</span>°
+                </li>
+                <li>Humidity:
+                    <span id="humidity">58</span>%
+                </li>
+                <li>Wind:
+                    <span id="wind">19</span>km/h
+                </li>
+            </ul>
+          </div>
             </div>
+            </div>
+          </div>
+     
+         <div class="container">
+          <div class="five-day-forecast" id="forecast">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="weather-forecast-date">Mond</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                   <hr/>
+                     <div class="weather-forecast-date">Mond</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+            <hr/>
+                     <div class="weather-forecast-date">Mond</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                     <hr/>
+                     <div class="weather-forecast-date">Mond</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                     <hr/>
+                     <div class="weather-forecast-date">Mond</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+          
           </div>
           </div>
           </div>
