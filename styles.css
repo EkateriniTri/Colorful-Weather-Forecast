@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #f5f2fe;
+}
+
+body {
+  background-color: var(--secondary-color);
+  margin: 50px auto;
+}
+
+.title-container {
+  background-color: var(--primary-color);
+  max-width: 960px;
+  margin: 50px auto;
+  padding :60px
+  border-radius: 16px;
+}
+
+h2 {
+  font-size: 10px;
+  line-height: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h2 .current-weather-and-time {
+  vertical-align: inherit;
+  
+}
+
+.title-container {
+    margin:10px;
+}
