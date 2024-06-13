@@ -42,7 +42,6 @@
             <div class="title-container">
               <h2 class="current-weather-card_title">current weather
                <p class="current-weather-and-time"> 12:00</p>
-             
             </div>
             </div>
               </h2>
@@ -53,7 +52,8 @@
             <div class="row">
               <div class="col-sm-6">
                 <ul>
-                  <li id="description-temperature">cloudy 16°/12°</li>
+                  <li> <span id="description">cloudy</span> </li>
+                  <li><span id="temperature-max">16°/<span id="temperature-min">12°</span></li>
                     <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="03d" id="icon" class="float-left">
                   <li id="air-quality">Air quality : <span class="air">34</span></li> 
                 </ul>
@@ -71,56 +71,126 @@
                 </li>
             </ul>
           </div>
-            </div>
+           
             </div>
           </div>
-     
-         <div class="container">
+         <div class="container">    
           <div class="five-day-forecast" id="forecast">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-6">
                     <div class="weather-forecast-date">Mond</div>
                     <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
                     <div class="weather-forecast-temp">
                         <span class="weather-forecast-temp-max">17°</span>
                         <span class="weather-forecast-temp-min">11°</span>
                     </div>
+                </div>
+                  <div class="col-6">
+                    <ul >
+                  <li>Real feel:
+                    <span id="feel">11</span>°
+                </li>
+                <li>Humidity:
+                    <span id="humidity">58</span>%
+                </li>
+                <li>Wind:
+                    <span id="wind">19</span>km/h
+                </li>
+              </ul>
+              </div>
+              </div>
                    <hr/>
-                     <div class="weather-forecast-date">Mond</div>
+                   <div class="row">
+                <div class="col-6">
+                     <div class="weather-forecast-date">Tue</div>
                     <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
                     <div class="weather-forecast-temp">
                         <span class="weather-forecast-temp-max">17°</span>
                         <span class="weather-forecast-temp-min">11°</span>
                     </div>
-            <hr/>
-                     <div class="weather-forecast-date">Mond</div>
-                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
-                    <div class="weather-forecast-temp">
-                        <span class="weather-forecast-temp-max">17°</span>
-                        <span class="weather-forecast-temp-min">11°</span>
-                    </div>
-                     <hr/>
-                     <div class="weather-forecast-date">Mond</div>
-                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
-                    <div class="weather-forecast-temp">
-                        <span class="weather-forecast-temp-max">17°</span>
-                        <span class="weather-forecast-temp-min">11°</span>
-                    </div>
-                     <hr/>
-                     <div class="weather-forecast-date">Mond</div>
-                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
-                    <div class="weather-forecast-temp">
-                        <span class="weather-forecast-temp-max">17°</span>
-                        <span class="weather-forecast-temp-min">11°</span>
-                    </div>
-
                 </div>
-                </div>
+                  <div class="col-6">
+                    <ul>
+                  <li>Real feel:
+                    <span id="feel">11</span>°
+                </li>
+                <li>Humidity:
+                    <span id="humidity">58</span>%
+                </li>
+                <li>Wind:
+                    <span id="wind">19</span>km/h
+                </li>
+              </ul>
+              </div>
             </div>
-          
+            <hr/>
+             <div class="row">
+               <div class="col-6">
+                     <div class="weather-forecast-date">Wedn</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                  </div>
+                    <div class="col-6">
+                      <ul>
+                      <li>Real feel: <span id="feel">12</span>°
+                      </li>
+                      <li>Humidity: <span id="humid">48</span>%
+                      </li>
+                      <li>Wind: <span id="wind">18</span>km/h 
+                      </li>
+                      </ul>
+                    </div>
+                   </div>
+                     <hr/>
+                     <div class="row">
+                     <div class="col-6">
+                     <div class="weather-forecast-date">Thur</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                      <ul>
+                        <li>Real feel: <span id="feel">12</span>°</li>
+                        <li>Humidity: <span id="humid">48</span>%
+                      </li>
+                      <li>Wind: <span id="wind">18</span>km/h 
+                      </li>
+                      </ul>
+                    </div>
+                     </div>
+                     <hr/>
+                     <div class="row">
+                     <div class="col-6">
+                     <div class="weather-forecast-date">Fri</div>
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt width="42">
+                    <div class="weather-forecast-temp">
+                        <span class="weather-forecast-temp-max">17°</span>
+                        <span class="weather-forecast-temp-min">11°</span>
+                    </div>
+                  </div>
+                    <div class="col-6">
+                      <ul>
+                        <li>Real feel: <span id="feel">12</span>°</li>
+                        <li>Humidity: <span id="humid">48</span>%
+                      </li>
+                      <li>Wind: <span id="wind">18</span>km/h 
+                      </li>
+                      </ul>
+             </div>
+            </div>
+            </div>
+            </div>
+           </div>
           </div>
           </div>
           </div>
+           </div>
 
     <script src="index.js" charset="utf-8"></script>
   </body>

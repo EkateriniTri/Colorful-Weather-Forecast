@@ -21,28 +21,33 @@ body {
 }
 
 h2 {
-  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
   line-height: 1;
+  margin: 10px;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 ul {
+  vertical-align: inherit;
   margin: 0;
   padding: 0;
 }
 
 li {
   list-style: none;
-}
-
-h2 {
   vertical-align: inherit;
-  margin: 10px;
 }
-
 .five-day-forecast {
   background-color: var(--primary-color);
   border-radius: 16px;
   max-width: 960px;
-  margin: 70px auto;
-  padding: 70px;
+  margin: 60px auto;
+  padding: 50px;
 }
