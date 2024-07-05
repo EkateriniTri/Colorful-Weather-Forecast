@@ -59,16 +59,16 @@ p {
 }
 .weather-temperature-current {
   font-size: 75px;
-  margin-left: 5px;
   font-weight: bold;
+  line-height: 88px;
 }
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 5px;
   font-size: 28px;
 }
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 h2 {
   display: flex;
